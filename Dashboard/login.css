@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  background: #e61345;
+}
+
+.login-wrap {
+  position: relative;
+  height: 900px;
+}
+
+.atas-kanan {
+  position: absolute;
+  left: 700px;
+  width: 700px;
+}
+
+.bawah-kiri {
+  position: absolute;
+  top: 500px;
+}
+
+.login {
+  position: absolute;
+  width: 400px;
+  height: 356px;
+  background: #f3f3f3;
+  border-radius: 15px;
+  margin-left: 35%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login img {
+  margin-top: 80px;
+  margin-left: 110px;
+  width: 184px;
+  height: 42px;
+}
+
+.login input {
+  width: 305px;
+  height: 24px;
+  padding: 5px 12px;
+  margin-left: 30px !important;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.login .loginsub {
+  color: white;
+  width: 305px;
+  height: 24px;
+  padding: 10px 10px;
+  background: #cb224a;
+  margin-left: 30px !important;
+  margin-top: 30px;
+  text-align: center;
+  border-radius: 7px;
+}
+
+.login p {
+  margin-top: 10px;
+  margin-left: 120px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.login p a {
+  text-decoration: none;
+  color: #cb224a;
+}
